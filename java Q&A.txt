@@ -1,0 +1,93 @@
+            /**Answer All The Questions**\
+
+1. Explain about the main method in java?
+
+Ans: Every java program requires a main method as its starting point. The main method
+creates objects of various classes and establishes communication between them. 
+    syntax:public static void main(string[]args)
+
+2. What are the Different Control flow statements available in java?
+Ans: *Decision Making in Java
+        . Simple if Statement
+        . if…else Statement
+        . Nested if statement
+        . if...else if…else statement
+        . Switch statement
+    *Looping Statements in Java
+        . While
+        . Do…while
+        . For
+        . For-Each Loop
+    *Branching Statements in Java
+        . Break
+        . Continue
+        . Return
+
+3. What is the difference between break and continue?
+Ans: The break statement is used to terminate the loop immediately.
+     The continue statement is used to skip the current iteration of the loop.
+
+4. What is an array? how will you declare an array in java?
+Ans: An array used  is a store a multiple variables of same datatype
+     its size is fixed
+     its index starts with 0 
+
+     Ex:a[i]//here i is a index number.
+     Syntax:type arrayName[];
+
+5. when will you get ArrayindexOutOfBoundsException?
+Ans: If the final index is 6 but in condition it's given more than 6
+then it will throw the arrayindexboundsexception.
+if the boundary condition is more than the final index or less than the 0
+
+
+6. Define the syntax to create an object for a class
+what are the naming conventions to be followed while creating a class,
+method and a variable. explain with example
+Ans:syntax:class name obj=new constructed name();
+            >>Classname must begin with Uppercase letter; public class PrintVowels
+            >>datatype begin from lowercase letter       ;int,char,float,double,short,long,boolean,byte; int firstNumber=1;
+            >>variable must follow the camelcase format first word must begin from lowercase and
+               the next case must begin from Uppercase letter. ;  int finalValue=5;
+
+7. What is Variable? How will you declare a variables in java?
+Ans: In Java, there are different types of variables, for example
+     there are: int,string,boolean,float,char  
+ syntax:type variableName=value;
+    String name ="sai";
+   int a=1;b=2;
+   int c=a+b;
+here a,b,c is a variable 
+    
+8. What is String in java? Is it a Data Type?    
+Ans: A Java string data type is a sequence or string of connected characters,
+    whereby the char data type represents a single character.
+    String is a class in java and reference data type.
+    String is a array of characters so it is not a primitive data type.
+
+9. What are the different ways to create the String Object in java?
+Ans:1. literal: java String literal is created by using double quotes
+     Ex: String s="Mahesh";
+    2. By new keyword: Java String is created using the keyword “new”.
+     Ex: String s=new String(“Mahesh”); 
+
+10. What is the Difference Between.Equals and ==? 
+Ans: Equal means it checks the content
+    ==means its checks the memory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
